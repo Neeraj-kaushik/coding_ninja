@@ -30,4 +30,3 @@ while True:
     else:
         break
     n=int(input())
-    
