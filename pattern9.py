@@ -17,11 +17,12 @@ while i<=n1:
 i=1
 while i<=n2:
     space=1
-    while space<=n2-i+1:
+    while space<=i:
         print(' ',end="")
         space+=1
+    
     j=1
-    k=(2*i)-1
+    k=2 * (n2-i)
     while j<=k:
         print("*",end="")
         j=j+1
