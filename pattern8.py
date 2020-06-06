@@ -1,0 +1,21 @@
+n=int(input())
+i=1
+while i<=n:
+    space=1
+    while space<=n-i:
+        print(' ',end="")
+        space+=1
+    j=1
+    p=i
+    while j<=i:
+        print(p,end="")
+        j=j+1
+        p=p+1
+    l=2*i-2
+    j=1
+    while j<=i-1:
+        print(l,end="")
+        l=l-1
+        j=j+1
+    print()
+    i=i+1
