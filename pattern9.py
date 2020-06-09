@@ -11,7 +11,7 @@ while i<=n1:
     k=(2*i)-1
     while j<=k:
         print("*",end="")
-        j=j+1
+        j=j+1      
     print()
     i=i+1
 i=1
