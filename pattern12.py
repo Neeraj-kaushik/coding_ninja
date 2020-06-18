@@ -14,8 +14,8 @@ while i<=n:
         j=j+1
 
     j=1
-    while j<=2*n:
-        k=2*n-i+1
+    while j<=n:
+        k=n-i+1
         if j==k :
             print("*",end="")
         else:
