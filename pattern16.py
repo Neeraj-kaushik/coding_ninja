@@ -1,22 +1,13 @@
 n=int(input())
-i=1
-while i<=n:
-    space=1
-    while space<=i-1:
+for i in range(0,n):
+    for j in range(0,i):
         print(' ',end="")
-        space=space+1
-    j=i
-    while j<=n:
-        print(j,end="")
-        j=j+1
+    for j in range(i,n):
+        print(j+1,end="")
     print()
-    i=i+1
-
-i=n-1
-while i>=1:
-    j=i
-    while j<=n:
-        print(j,end="")
-        j=j+1
+for i in range(2,n+1):
+    for j in range(0,n-i):
+        print(' ',end="")
+    for j in range (n-i,n):
+        print(j+1,end="")
     print()
-    i=i-1

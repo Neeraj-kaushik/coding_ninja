@@ -3,12 +3,12 @@ def armstrong(n):
     while n!=0:
         rem=n%10
         num=rem*rem*rem
-        print(num)
         n=n//10
     if n==num:
         armstrong=True
     else:
         armstrong=False
+    return armstrong
 
 n= int(input())
 if (armstrong(n)):
